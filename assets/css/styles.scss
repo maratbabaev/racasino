@@ -91,7 +91,7 @@ body {
 		align-items: center;
 		width: 100%;
 		justify-content: center;
-		background-color: #00aaff;
+		background-color: #006ca3;
 		color: #fff;
 		padding: 0 1.5rem;
 		border-radius: 0.7rem;
@@ -272,7 +272,7 @@ body {
 		text-shadow: 0 0 21px #00aaff, 0 0 42px #00aaff, 0 0 82px #81f7fa;
 	}
 	a {
-		background-color: #00aaff;
+		background-color: #006ca3;
 		padding: 0 1.5rem;
 		border-radius: 0.7rem;
 		font-weight: 700;
@@ -594,12 +594,15 @@ body {
 .content_slider_swiper {
 	display: flex;
 	align-items: center;
+	width: 100%;
 	.swiper {
 		display: flex;
 		align-items: center;
+		width: 100%;
 	}
 	.swiper-wrapper {
 		display: grid;
+		width: 100%;
 		grid-template-columns: repeat(7, 1fr);
 		gap: 0.8rem;
 	}
@@ -611,8 +614,9 @@ body {
 		height: 8.5rem;
 		border-radius: 1.5rem;
 		svg {
-			width: 70%;
-			height: auto;
+			width: auto;
+			max-width: 90%;
+			height: 50%;
 			path {
 				fill: #fff;
 			}
@@ -781,9 +785,6 @@ body {
 	.swiper-slide {
 		width: auto;
 		aspect-ratio: 156/85;
-		svg {
-			width: 35%;
-		}
 	}
 }
 
@@ -1089,14 +1090,7 @@ body {
 			&:nth-child(n + 6) {
 				display: none;
 			}
-			svg {
-				width: 55%;
-				height: auto;
-			}
 		}
-	}
-	.content_slider_swiper_single .swiper-slide svg {
-		width: 35%;
 	}
 }
 
