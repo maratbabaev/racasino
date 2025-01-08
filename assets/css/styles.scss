@@ -1027,3 +1027,54 @@ body {
 		}
 	}
 }
+
+@media (max-width: 1024px) {
+	.top_title h1 {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.top_title {
+		width: calc(100% - 3.2rem);
+	}
+	.top_block {
+		aspect-ratio: 375 / 375;
+	}
+	.top_sliders_menu_item span {
+		font-size: 1.3rem;
+	}
+	.content_list_row {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.content_slider_title {
+		font-size: 2.2rem;
+	}
+	.content_list_title h2 {
+		font-size: 2.5rem;
+	}
+	.content_item_text_title {
+		font-size: 2.5rem;
+	}
+	.footer_menu {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.footer_menu_item {
+		&:nth-child(2) {
+			border-right: 0;
+		}
+		&:nth-child(3) {
+			display: none;
+		}
+		&:nth-child(4) {
+			display: none;
+		}
+	}
+	.top_video video {
+		source {
+			&:nth-child(2) {
+				display: none;
+			}
+		}
+	}
+}
