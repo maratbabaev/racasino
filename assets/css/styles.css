@@ -75,7 +75,7 @@ body.hidden {
   aspect-ratio: 150/90;
   margin: 0 auto;
 }
-.header_logo svg {
+.header_logo img {
   width: 100%;
   height: 100%;
   display: block;
@@ -246,7 +246,6 @@ body.hidden {
   font-family: var(--brand-font);
   font-weight: 400;
   line-height: 1.2;
-  text-shadow: 0 0 21px #00aaff, 0 0 42px #00aaff, 0 0 82px #81f7fa;
 }
 .top_title a {
   background-color: #006ca3;
